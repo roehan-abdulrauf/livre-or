@@ -54,7 +54,6 @@ $req = $bdd->query('SELECT * FROM utilisateurs');
                     <th class="border th" scope="col">LOGIN</th>
                     <th class="border th" scope="col">PASSWORD</th>
                     <th class="border th" scope="col">SUPPRIMER</th>
-                    <th class="border th" scope="col">MODIFIER</th>
                 </tr>
             </thead>
             <tbody class="border">
@@ -64,7 +63,6 @@ $req = $bdd->query('SELECT * FROM utilisateurs');
                     echo "<th>$rows[login]</th>";
                     echo "<th>$rows[password]</th>";
                     echo "<th><a href=\"supprimerprofil.php?id=$rows[id]\">supprimer</a></th>";
-                    echo "<th><a href=\"modifierprofil.php?id=$rows[id]\">modifier</a></th></tr>";
                 }
                 ?>
             </tbody>

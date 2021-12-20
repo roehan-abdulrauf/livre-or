@@ -1,25 +1,27 @@
 <?php
 
 session_start();
+
 if(isset($_POST['submit'])){
 
     
-    $sessionlogin = $_SESSION['login'];
+    $id = $_SESSION['id'];
     $com = $_POST['message'];
+
     $bdd = new PDO('mysql:host=localhost;dbname=livreor', 'root', '');
-    $check = $bdd->prepare("SELECT id FROM utilisateurs WHERE login = '$sessionlogin'");
-    $check->execute(array());
-    $data = $check->fetch();
-    $id = $data[0][0]; #Recuperation de l'id
+    // $check = $bdd->prepare("SELECT id FROM utilisateurs WHERE login = '$login'");
+    // $check->execute(array($login));
+    // $data = $check->fetch();
+    // $id = $data[0][0]; #Recuperation de l'id
        
 
 
     #Insertion du commentaire 
     if(!empty($com)){
-    
-        $querycom = $bdd->prepare("INSERT INTO commentaires (commentaire, id_utilisateur, date) VALUES ('$com','$id',NOW())");
-    
+        $querycom = $bdd->prepare("INSERT INTO `commentaires`(`commentaire`,`id_utilisateur`) VALUES ('$com' ,$id)");
+        $querycom->execute();
         $comment = 'Votre commentaire à bien été pris en compte';
+        // $querycom->debugDumpParams();
     }
 } 
 

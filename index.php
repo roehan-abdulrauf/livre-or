@@ -23,15 +23,15 @@
                     <a href="index.php#apropos">A propos</a>
                 </ul>
                 <ul>
-                    <a href="contact.php">Contact</a>
+                    <a href="/php/contact.php">Contact</a>
                 </ul>
             </div>
             <div class="head">
                 <ul>
-                    <button class="buton"><a class="but" href="connexion.php">Connexion</a></button>
+                    <button class="buton"><a class="but" href="/php/connexion.php">Connexion</a></button>
                 </ul>
                 <ul>
-                    <button class="buton"><a class="but" href="inscription.php">Inscription</a></button>
+                    <button class="buton"><a class="but" href="/php/inscription.php">Inscription</a></button>
                 </ul>
             </div>
         </nav>
@@ -102,13 +102,13 @@
                     <a href="index.php#apropos">A propos</a>
                 </div>
                 <div>
-                    <a href="contact.php">Contact</a>
+                    <a href="/php/contact.php">Contact</a>
                 </div>
                 <div>
-                    <a href="connexion.php">Connexion</a>
+                    <a href="/php/connexion.php">Connexion</a>
                 </div>
                 <div>
-                    <a href="inscription.php">Inscription</a>
+                    <a href="/php/inscription.php">Inscription</a>
                 </div>
             </div>
             <div>

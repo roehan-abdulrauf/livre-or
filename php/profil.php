@@ -103,13 +103,13 @@ if (isset($_SESSION['login'])) {
                         <tr>
                             <td>
                                 <label>Nouveau mot de passe</label>
-                                <input type="password" name="newmdp" id="newmdp placeholder=" Nouveau mot de passe" required />
+                                <input type="password" name="newmdp" id="newmdp placeholder=" placeholder="Nouveau mot de passe" required />
                             </td>
                         </tr>
                         <tr>
                             <td>
                                 <label>Confirmer mot de passe</label>
-                                <input type="password" name="newmdp2" id="newmdp2 placeholder=" Confirmer mot de passe" required />
+                                <input type="password" name="newmdp2" id="newmdp2 placeholder=" placeholder="Confirmer mot de passe" required />
                             </td>
                         </tr>
                         <tr>

@@ -50,7 +50,9 @@
                             $verify = password_verify($password, $data['password']);
                             if ($rows == 1) {
                                 if ($login == $data['login'] && $verify) {
+
                                     $_SESSION['login'] = $data['login'];
+                                    
                                     header("Location: espacepersonnel.php");
                                 } elseif ($login == "admin" &&  $password == "admin") {
                                     header("Location: listeutilisateurs.php");
