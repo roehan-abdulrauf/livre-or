@@ -35,10 +35,10 @@ $req = $bdd->query('SELECT * FROM utilisateurs');
             </div>
             <div class="head">
                 <ul>
-                    <button class="buton"><a class="but" href="deconnexion.php">Deconnexion</a></button>
+                    <button class="buton"><a class="but" href="contact.php">Contact</a></button>
                 </ul>
                 <ul>
-                    <button class="buton"><a class="but" href="contact.php">Contact</a></button>
+                    <button class="buton"><a class="but" href="deconnexion.php">Deconnexion</a></button>
                 </ul>
             </div>
         </nav>
@@ -84,10 +84,10 @@ $req = $bdd->query('SELECT * FROM utilisateurs');
                     <a href="#">Lien Github</a>
                 </div>
                 <div>
-                    <a href="deconnexion.php">Deconnexion</a>
+                    <a href="contact.php">Contact</a>
                 </div>
                 <div>
-                    <a href="contact.php">Contact</a>
+                    <a href="deconnexion.php">Deconnexion</a>
                 </div>
             </div>
             <div>
