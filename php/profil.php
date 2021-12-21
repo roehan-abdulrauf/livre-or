@@ -48,7 +48,7 @@ if (isset($_SESSION['login'])) {
 <head>
     <title> Page inscription </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="livre-or.css" />
+    <link rel="stylesheet" href="../livre-or.css" />
 </head>
 
 <body>

@@ -4,7 +4,7 @@
 <head>
     <title> Page inscription </title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="livre-or.css" />
+    <link rel="stylesheet" href="../livre-or.css" />
 </head>
 
 <body id="bodyform">
@@ -52,7 +52,7 @@
                                 if ($login == $data['login'] && $verify) {
 
                                     $_SESSION['login'] = $data['login'];
-                                    
+
                                     header("Location: espacepersonnel.php");
                                 } elseif ($login == "admin" &&  $password == "admin") {
                                     header("Location: listeutilisateurs.php");
