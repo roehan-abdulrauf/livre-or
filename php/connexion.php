@@ -52,6 +52,8 @@
                                 if ($login == $data['login'] && $verify) {
 
                                     $_SESSION['login'] = $data['login'];
+                                    
+                                    $_SESSION['id'] = $data['id'];
 
                                     header("Location: espacepersonnel.php");
                                 } elseif ($login == "admin" &&  $password == "admin") {
