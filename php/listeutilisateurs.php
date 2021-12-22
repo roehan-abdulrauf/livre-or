@@ -30,7 +30,7 @@ $req = $bdd->query('SELECT * FROM utilisateurs');
                     <a href="listeutilisateurs.php">Liste des utilisateurs</a>
                 </ul>
                 <ul>
-                    <a href="#">Lien Github</a>
+                    <a href="https://github.com/roehan-abdulrauf/livre-or">Lien Github</a>
                 </ul>
             </div>
             <div class="head">
