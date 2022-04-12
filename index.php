@@ -28,10 +28,10 @@
             </div>
             <div class="head">
                 <ul>
-                    <button class="buton"><a class="but" href="/php/connexion.php">Connexion</a></button>
+                    <button class="buton"><a class="but" href=" php/connexion.php">Connexion</a></button>
                 </ul>
                 <ul>
-                    <button class="buton"><a class="but" href="/php/inscription.php">Inscription</a></button>
+                    <button class="buton"><a class="but" href=" php/inscription.php">Inscription</a></button>
                 </ul>
             </div>
         </nav>
